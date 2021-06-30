@@ -1,0 +1,85 @@
+
+@media (min-width: 993px) {
+.logo-1 {display: none ;
+  }
+.logo {display: block}}
+
+@media (max-width: 992px) {
+.logo {display: none;
+  }
+  .logo-1 {display: block;}
+}
+
+
+h1
+ {background-color: lightgray;
+  font-size: 2.3em;
+font-weight: lighter;
+font-family: 'Syncopate', sans-serif;
+}
+
+h1.interna {
+  background: none;
+    font-family: 'Syncopate', sans-serif
+}
+
+.plus {
+  display:inline-block;
+  width:30px;
+  height:30px;
+  
+  background:
+    linear-gradient(#fff,#fff),
+    linear-gradient(#fff,#fff),
+    #000;
+  background-position:center;
+  background-size: 50% 2px,2px 50%; /*thickness = 2px, length = 50% (25px)*/
+  background-repeat:no-repeat;
+}
+
+.alt {
+  background:
+    linear-gradient(#000,#000),
+    linear-gradient(#000,#000);
+  background-position:center;
+  background-size: 50% 2px,2px 50%; /*thickness = 2px, length = 50% (25px)*/
+  background-repeat:no-repeat;
+}
+
+.radius {
+  border-radius:50%;
+  font-size: 2e;
+}
+
+.table {margin-top: 90px;
+margin-bottom: auto;
+}
+
+
+.proc-ref {margin-left: 10px;}
+
+.btn-buscar {margin-left: 10px;}
+
+.buscar-registro {margin-left: 450px;
+margin-top: 20px;
+margin-bottom: 20px;}
+
+.select-ref {margin-left: 70px;
+margin-right: 70px;
+margin-top: 90px;
+margin-bottom: 10px;}
+
+.cadastrar-alim {margin-left: 70px;
+margin-right: 70px;
+margin-top: 90px;
+margin-bottom: 10px;}
+
+.cals {margin-left: 70px;
+margin-right: 70px;}
+
+.calorias {margin-left: 70px;}
+
+
+.alert {margin-top: 10px;}
+
+
